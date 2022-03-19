@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  font-family: 'Fredoka', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #161b22;
+  margin: 48px 24px;
+}

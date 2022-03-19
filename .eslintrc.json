@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "airbnb-typescript"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "import/prefer-default-export": "off",
+        "react/function-component-definition": "off",
+        "linebreak-style": "off",
+        "react/jsx-one-expression-per-line": "off" ,
+        "object-curly-newline": "off",
+        "comma-dangle": "off",
+        "@typescript-eslint/comma-dangle": ["error"],
+        "jsx-a11y/anchor-is-valid": "off",
+        "eslint-disable operator-linebreak": "off"
+    }
+}
